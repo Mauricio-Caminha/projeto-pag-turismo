@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* make sure padding is included in the width */
+}
+
+:root {
+  font-family: "Open Sans", serif;
+  color: #333333;
+}
+
+body {
+  background-color: white;
+}
+
+#page {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 1120px;
+  margin: 88px 80px auto 80px;
+}
+
+#title h1 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #E1624F;
+  margin-bottom: 8px;
+}
+
+#title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1B1B1B;
+}
+
+#image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 28px;
+  margin-bottom: 24px;
+}
+
+#image p {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+section {
+  margin-top: 40px;
+}
+
+#content_list h1 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #E1624F;
+  margin-top: 64px;
+  margin-bottom: 2px;
+}
+
+#content_list h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1B1B1B;
+}
+
+#content_list > p:first-of-type {
+  font-size: 16px;
+  font-weight: regular;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+
+#content_list img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+#page > p:last-of-type {
+  text-align: center;
+  font-size: 16px;
+  font-weight: regular;
+  margin-top: 40px;
+}
+
+.card_travel {
+  margin-bottom: 48px;
+}
+
+#content_list > ul:first-of-type {
+  list-style-type: none;
+}
+
+.content_card h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1B1B1B;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.content_card p {
+  font-size: 16px;
+  font-weight: regular;
+  margin-top: 4px;
+}
+
+.content_card ul li {
+  font-weight: bold;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 6px;
+  color: #0C51A7;
+}
+
+.content_card ul li::marker {
+  color: #333333;
+  font-size: 10px;
+}
+
+#content_list > ul > li:nth-child(3) > div > div > ul > li:nth-child(1) {
+  color: #591B98;
+}
+
+#content_list > ul > li:nth-child(3) > div > div > ul > li:nth-child(2) {
+  color: #E5245E;
+}
+
+#content_list > ul > li:nth-child(3) > div > div > ul > li:nth-child(3) {
+  color: #E95E10;
+}
+
+footer {
+  text-align: center;
+  font-family: "Alice", serif;
+  font-size: 16px;
+  color: #333333;
+  margin-top: 65px;
+  margin-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
+}
